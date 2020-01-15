@@ -1,0 +1,5 @@
+com\amazon\testcases\CartPageTest.class
+com\amazon\testcases\HomePageTest.class
+com\amazon\testcases\OrderPageTest.class
+com\amazon\testcases\LoginPageTest.class
+com\amazon\testcases\ResultPageTest.class
