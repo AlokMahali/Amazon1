@@ -65,15 +65,15 @@ public class HomePage extends TestBase {
 	
 	
 	public LoginPage navigatelogin() throws InterruptedException {
-//		tUtil.sync(AccountList);
+		tUtil.sync(AccountList);
 		AccountList.click();
 //		tUtil.sync(AccountList);
 		//SignIn.click();
 		//tUtil.moveToElement(SignIn);
 		//SignIn.click();
-		Actions action =new Actions(driver);
-		action.clickAndHold().moveToElement(SignIn);
-		action.moveToElement(SignIn).build().perform();
+//		Actions action =new Actions(driver);
+//		action.clickAndHold().moveToElement(SignIn);
+//		action.moveToElement(SignIn).build().perform();
 		return new LoginPage();
 	}
 	

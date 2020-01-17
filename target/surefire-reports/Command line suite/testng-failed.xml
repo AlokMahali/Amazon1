@@ -9,13 +9,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.amazon.testcases.LoginPageTest -->
-      <class name="com.amazon.testcases.CartPageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="verifyAddCart"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.amazon.testcases.CartPageTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

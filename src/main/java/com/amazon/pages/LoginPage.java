@@ -28,7 +28,7 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 
-	public HomePage login(String Email, String Pwd) throws InterruptedException {
+	public DeliveryPage login(String Email, String Pwd) throws InterruptedException {
 		tUtil.sync(email);
 		email.sendKeys(Email);
 		tUtil.sync(contiune);
@@ -37,7 +37,7 @@ public class LoginPage extends TestBase{
 		password.sendKeys(Pwd);
 		tUtil.sync(signIn);
 		signIn.click();
-		return new HomePage();
+		return new DeliveryPage();
 	}
 	
 

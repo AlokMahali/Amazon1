@@ -16,8 +16,9 @@ public class CartPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void proceedtopay() {
+	public LoginPage proceedtopay() {
 		ProceedToBuy.click();
+		return new LoginPage();
 	}
 	
 	

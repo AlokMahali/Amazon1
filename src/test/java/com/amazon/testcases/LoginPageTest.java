@@ -30,18 +30,14 @@ public class LoginPageTest extends TestBase{
 	 public void loginTest() throws InterruptedException {
 		 
 		 loginPage= homePage.navigatelogin();
-		// Thread.sleep(5000);
-		// loginPage.login(Prop.getProperty("userName"), Prop.getProperty("Password"));
+		 Thread.sleep(5000);
+		 loginPage.login(Prop.getProperty("userName"), Prop.getProperty("Password"));
 	  
 	  }
 	 
-//	@AfterMethod
-//	public void teardown() {
-//			driver.quit();
-//		}
-
-	 
-	 
-	
+	@AfterMethod
+	public void teardown() {
+			driver.quit();
+		}
 
 }
