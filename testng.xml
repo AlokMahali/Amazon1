@@ -8,6 +8,9 @@
       <class name="com.amazon.testcases.ResultPageTest"/>
       <class name="com.amazon.testcases.CartPageTest"/>
       <class name="com.amazon.testcases.OrderPageTest"/>
+      <class name="com.amazon.testcases.LoginPageTest"/>
+      <class name="com.amazon.testcases.DeliveryPageTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
